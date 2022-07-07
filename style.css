@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Open Sans', sans-serif;
+}
+
+.container{
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+}
+
+a[href]{
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+header{
+    align-items: center;
+    background-color: rgb(1, 1, 78);
+    color: white;
+    height: 100px;
+}
+
+.menu{
+    justify-content: space-between;
+}
+
+.itens {
+    display: flex;
+    margin-right: 200px;
+}
+
+.T1 {
+    margin-left: 200px;
+}
+
+.img1{
+    margin-left: 150px;
+}
+.img2{
+    margin-right: 150px;
+}
+
+.bloco1{
+    margin-left: 200px;
+    color: rgb(1, 1, 78);  
+}
+
+.quem-somos{
+    margin-left: 150px;
+    color: rgb(1, 1, 78);
+}
+
+.bloco2{
+    max-width: 430px;
+}
+
+.servicos{
+    background-color: rgb(1, 1, 78);
+    color: white;
+    height: 500px;
+    margin-left: ;
+}
+
+.bloco3 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 130px;
+}
+
+.opcoes{
+    margin-right: 150px;
+    margin-top: 15px;
+}
+
+.botton{
+    background-color: rgb(1, 1, 78);
+    color: white;
+    display: inline-block;
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.botto{
+    background-color: white;
+    color: rgb(1, 1, 78);
+    display: inline-block;
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.botom{
+    color: white;
+}
+
+.T2 {
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.planosP{
+    display: flex;
+    max-width: 100%;
+    align-items: flex-end;
+    justify-content: space-around;
+    margin: 100px
+}
+
+.list-planos{
+    border: 5px solid  rgb(1, 1, 78);
+}
+
+.plano{
+    text-align: center;
+}
+
+.item-plano {
+    text-align: center;
+    margin: 20px;
+}
+
+.item-plano ul{
+    margin: 40px;
+    text-align: left;
+}
+
+.item-plano li{
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.rodape{
+    justify-content: space-between;
+    background-color: rgb(1, 1, 78);
+    height: 80px;
+    color: white;
+}
+
+.rodape p{
+    margin: 70px;
+}
